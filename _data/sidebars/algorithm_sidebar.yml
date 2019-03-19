@@ -21,29 +21,29 @@ entries:
       type: frontmatter
 
   # Useful title which will be rendered to sidebar
-  - title: æ•°æ®ç»“æ„ä¸ç®—æ³•
+  - title: Êı¾İ½á¹¹ÓëËã·¨
     output: web
     folderitems:
 
-    - title: çº¿æ€§è¡¨
+    - title: ÏßĞÔ±í
       url: /xxx.html
       output: web
       subfolders:
-      - title: æ•°ç»„
+      - title: Êı×é
         output: web
         subfolderitems:
-        - title: ä¾‹å­
+        - title: Àı×Ó
           url: /xxx.html
           output: web
-      - title: åŠ¨æ€æ•°ç»„
+      - title: ¶¯Ì¬Êı×é
         output: web
         subfolderitems:
-        - title: ä¾‹å­
+        - title: Àı×Ó
           url: /xxx.html
           output: web
-      - title: é“¾è¡¨
+      - title: Á´±í
         output: web
         subfolderitems:
-        - title: ä¾‹å­
+        - title: Àı×Ó
           url: /xxx.html
           output: web
