@@ -1,0 +1,43 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Graphics
+  version: 0.1
+  folders:
+
+  # Useless title
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  # Useful title which will be rendered to sidebar
+  - title: Tag archives
+    output: web
+    folderitems:
+
+    - title: API & Shader
+      url: /xxx.html
+      output: web
+      subfolders:
+      - title: GLSL
+        output: web
+        subfolderitems:
+        - title: Varible
+          url: /xxx.html
+          output: web
+      - title: Opengl
+        output: web
+        subfolderitems:
+        - title: Vertex attribute
+          url: /xxx.html
+          output: web

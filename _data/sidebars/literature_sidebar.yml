@@ -1,0 +1,43 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Literature
+  version: 0.1
+  folders:
+
+  # Useless title
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  # Useful title which will be rendered to sidebar
+  - title: Tag archives
+    output: web
+    folderitems:
+
+    - title: 平凡的世界
+      url: /xxx.html
+      output: web
+      subfolders:
+      - title: 人物关系
+        output: web
+        subfolderitems:
+        - title: Example
+          url: /xxx.html
+          output: web
+      - title: 人物分析
+        output: web
+        subfolderitems:
+        - title: Example
+          url: /xxx.html
+          output: web
