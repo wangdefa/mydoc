@@ -1,0 +1,62 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Literature
+  version: 0.1
+  folders:
+
+  # Useless title
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  # Useful title which will be rendered to sidebar
+  - title: 平凡的世界
+    output: web
+    folderitems:
+    - title: 人物关系解读
+      url: /xxx.html
+      output: web
+    - title: 人物分析
+      output: web
+      subfolders:
+      - title: 孙少平
+        url: /xxx.html
+        output: web
+      - title: 孙少安
+        url: /xxx.html
+        output: web
+      - title: 田晓霞
+        url: /xxx.html
+        output: web
+      - title: 田润叶
+        url: /xxx.html
+        output: web
+      - title: 田润生
+        url: /xxx.html
+        output: web
+      - title: 郝红梅
+        url: /xxx.html
+        output: web
+      - title: 田福军
+        url: /xxx.html
+        output: web
+      - title: 孙玉厚
+        url: /xxx.html
+        output: web
+      - title: 孙玉亭
+        url: /xxx.html
+        output: web
+      - title: 田福堂
+        url: /xxx.html
+        output: web

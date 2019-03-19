@@ -1,0 +1,49 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Algorithms
+  version: 0.1
+  folders:
+
+  # Useless title
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  # Useful title which will be rendered to sidebar
+  - title: 数据结构与算法
+    output: web
+    folderitems:
+
+    - title: 线性表
+      url: /xxx.html
+      output: web
+      subfolders:
+      - title: 数组
+        output: web
+        subfolderitems:
+        - title: 例子
+          url: /xxx.html
+          output: web
+      - title: 动态数组
+        output: web
+        subfolderitems:
+        - title: 例子
+          url: /xxx.html
+          output: web
+      - title: 链表
+        output: web
+        subfolderitems:
+        - title: 例子
+          url: /xxx.html
+          output: web

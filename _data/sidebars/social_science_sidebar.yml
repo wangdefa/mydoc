@@ -1,0 +1,29 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Social Science
+  version: 0.1
+  folders:
+
+  # Useless title
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  # Useful title which will be rendered to sidebar
+  - title: 活出生命的意义
+    output: web
+    folderitems:
+    - title: 主旨
+      url: /xxx.html
+      output: web
